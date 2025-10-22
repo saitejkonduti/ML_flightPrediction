@@ -1,8 +1,6 @@
 # Flight Price Prediction using Machine Learning  
 <img width="1536" height="1024" alt="Flighprediction" src="https://github.com/user-attachments/assets/e051bb6b-091f-4ea1-99ac-721fce9f699c" />
 
-![Flight Price Prediction Banner](https://github.com/saitejkonduti/FlightPricePrediction/blob/main/banner.png)
-
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Pandas](https://img.shields.io/badge/Library-Pandas-yellow)
 ![Scikit-Learn](https://img.shields.io/badge/ML-Scikit--Learn-orange)
