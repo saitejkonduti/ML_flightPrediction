@@ -1,4 +1,5 @@
 # Flight Price Prediction using Machine Learning  
+<img width="1536" height="1024" alt="Flighprediction" src="https://github.com/user-attachments/assets/e051bb6b-091f-4ea1-99ac-721fce9f699c" />
 
 ![Flight Price Prediction Banner](https://github.com/saitejkonduti/FlightPricePrediction/blob/main/banner.png)
 
@@ -88,3 +89,5 @@ grid = {
 rf = RandomForestRegressor()
 grid_search = GridSearchCV(estimator=rf, param_grid=grid, cv=5, scoring='r2', verbose=2)
 grid_search.fit(X_train, y_train)
+
+
