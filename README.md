@@ -52,7 +52,7 @@ The project helps:
 
 ---
 
-## ⚙️ Workflow  
+## Workflow  
 
 ### Data Preprocessing  
 - Removed missing values  
