@@ -1,4 +1,4 @@
-# ✈️ Flight Price Prediction using Machine Learning  
+# Flight Price Prediction using Machine Learning  
 
 ![Flight Price Prediction Banner](https://github.com/saitejkonduti/FlightPricePrediction/blob/main/banner.png)
 
@@ -10,7 +10,7 @@
 
 ---
 
-## 📌 Overview  
+##  Overview  
 
 This project aims to **predict flight ticket prices** based on multiple influencing features such as airline, source, destination, total stops, and duration.  
 Using **machine learning regression algorithms**, the model learns from historical flight data to estimate future ticket prices.  
@@ -22,7 +22,7 @@ The project helps:
 
 ---
 
-## 🎯 Objective  
+## Objective  
 
 - Build a regression model to predict flight prices accurately.  
 - Identify major factors influencing flight prices.  
@@ -31,7 +31,7 @@ The project helps:
 
 ---
 
-## 🧾 Dataset Information  
+## Dataset Information  
 
 | File | Description |
 |------|--------------|
@@ -41,7 +41,7 @@ The project helps:
 
 ---
 
-## 🧠 Key Features of the Project  
+## Key Features of the Project  
 
 - Cleaned and transformed unstructured flight data  
 - Extracted and engineered features such as journey date, departure time, arrival time, and duration  
@@ -54,30 +54,30 @@ The project helps:
 
 ## ⚙️ Workflow  
 
-### 1️⃣ Data Preprocessing  
+### Data Preprocessing  
 - Removed missing values  
 - Converted `Date_of_Journey`, `Dep_Time`, and `Duration` into numeric values  
 - Extracted **day** and **month** from journey date  
 
-### 2️⃣ Feature Engineering  
+### Feature Engineering  
 - Created new columns for total stops, time differences, and encoded airlines  
 - Normalized numeric features for better model convergence  
 
-### 3️⃣ Model Building  
+### Model Building  
 - Split data into **training and validation sets** (80:20 ratio)  
 - Trained multiple ML models:
   - RandomForestRegressor  
   - XGBoostRegressor  
   - GradientBoostingRegressor  
 
-### 4️⃣ Hyperparameter Tuning  
+### Hyperparameter Tuning  
 Used **GridSearchCV** and **RandomizedSearchCV** to optimize model parameters such as:
 - `n_estimators` (number of trees)  
 - `max_depth` (tree depth)  
 - `learning_rate` (for boosting models)  
 - `min_samples_split` and `min_samples_leaf`  
 
-📘 Example:
+Example:
 ```python
 from sklearn.model_selection import GridSearchCV
 grid = {
